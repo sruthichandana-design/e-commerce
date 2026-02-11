@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHub - Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🛍️ ShopHub</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Products</a></li>
+                <li class="cart-icon">
+                    <a href="cart.html">
+                        🛒 Cart
+                        <span class="cart-badge" id="cartBadge">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h1>Featured Products</h1>
+            <p>Discover our amazing collection of products</p>
+        </div>
+        <div class="products-grid" id="productsGrid"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ShopHub. All rights reserved.</p>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="cart-utils.js"></script>
+</body>
+</html>

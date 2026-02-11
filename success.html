@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopHub - Order Success</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🛍️ ShopHub</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Products</a></li>
+                <li class="cart-icon">
+                    <a href="cart.html">
+                        🛒 Cart
+                        <span class="cart-badge" id="cartBadge">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="success-message">
+            <div class="success-icon">✅</div>
+            <h2>Order Placed Successfully!</h2>
+            <p>Thank you for your purchase. Your order has been confirmed.</p>
+            <div class="order-number" id="orderNumber"></div>
+            <p>You will receive a confirmation email shortly.</p>
+            <a href="index.html" class="btn">Continue Shopping</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 ShopHub. All rights reserved.</p>
+    </footer>
+
+    <script src="success.js"></script>
+    <script src="cart-utils.js"></script>
+</body>
+</html>
